@@ -15,4 +15,12 @@ nokia3210.setCameraNumber(4);
 
 nokia3210.mostrarAtributos();
 iphone3G.mostrarAtributos();
-samsungGalaxy10.mostrarAtributos();
+samsungGalaxy10.imprimePatron();
+
+let arrayMobiles:Mobile[] = [nokia3210,iphone3G,samsungGalaxy10];
+
+for (let m1 of arrayMobiles){
+    m1.imprimePatron();
+    console.log(" ");
+    
+}
