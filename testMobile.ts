@@ -10,8 +10,8 @@ nokia3210.mostrarAtributos();
 iphone3G.mostrarAtributos();
 samsungGalaxy10.mostrarAtributos();
 
-nokia3210.is5G = true;
-nokia3210.cameraNumber = 4;
+nokia3210.setIs5G(true);
+nokia3210.setCameraNumber(4);
 
 nokia3210.mostrarAtributos();
 iphone3G.mostrarAtributos();
